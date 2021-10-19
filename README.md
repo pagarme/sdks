@@ -30,14 +30,15 @@ Através deste repositório, você conseguirá da andamento ao desenvolv
 
 Caso você esteja atrás de exemplos de SDK em versões anteriores, não se preocupe. Pois, também temos um guia para te levar a SDK desejada e sua versão atual.
 
-Repositórios que apontam para [Pagar.me v1 a v4](https://docs.pagar.me/v4/reference) .
+Repositórios que apontam para [Pagar.me](https://docs.pagar.me/v4/reference) legado e alguns [exemplos](https://github.com/pagarme/pagarme-pocs) dessas SDKs.
 
-- [ Java ](https://github.com/pagarme/pagarme-pocs/tree/master/Java%20-%20POCs)
-- [ Js ](https://github.com/pagarme/pagarme-pocs/tree/master/Javascript%20-%20POCs)
-- [ Ruby ](https://github.com/pagarme/pagarme-pocs/tree/master/ruby%20-%20POCs)
-- [ Php ](https://github.com/pagarme/pagarme-pocs/tree/master/PHP%20-%20POCs)
-- [ .net ](https://github.com/pagarme/pagarme-pocs/tree/master/dotNet%20-%20POCs)
-- [ Python ](https://github.com/pagarme/pagarme-pocs/tree/master/Python%20-%20POCs)
+- [ Java ](https://github.com/pagarme/pagarme-java)
+- [ Js ](https://github.com/pagarme/pagarme-js)
+- [ Ruby ](https://github.com/pagarme/pagarme-ruby)
+- [ Php ](https://github.com/pagarme/pagarme-php)
+- [ .net ](https://github.com/pagarme/pagarme-net)
+- [ Python ](https://github.com/pagarme/pagarme-python)
+
 
 Repositório que apontam para [MundiPagg](https://docs.mundipagg.com/reference#introdu%C3%A7%C3%A3o).
 
