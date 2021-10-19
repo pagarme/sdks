@@ -1,6 +1,9 @@
-# Em construção
+:construction:
 
-# Mundipagg agora é Pagar.me
+
+# Em construção
+
+# Mundipagg agora é Pagar.me
 
 Bem vindo ao guia de referência da API do [Pagar.me](http://Pagar.me) 2.0!
 
@@ -14,20 +17,20 @@ Você pode customizar nossos produtos e serviços da forma que for me
 
 - ----------------------------------------------------------------------------------------------------------------------------
 
-Através deste repositório, você conseguira da andamento ao desenvolvimento do seu projeto. Aqui você encontrara exemplos práticos sobre a integração com nossas SDKs.
+Através deste repositório, você conseguirá da andamento ao desenvolvimento do seu projeto. Aqui você encontrará exemplos práticos sobre a integração com nossas SDKs.
 
-- [Java]()
-- [Node]()
-- [Ruby]()
-- [Php]()
-- [Python]()
-- [Go]()
-- [.NetStandard]()
-- [.NetFramework]()
+- [Java](https://github.com/pagarme/pagarme-core-api-java)
+- [Node](https://github.com/pagarme/pagarme-core-api-nodejs)
+- [Ruby](https://github.com/pagarme/pagarme-core-api-ruby)
+- [Php](https://github.com/pagarme/pagarme-core-api-php)
+- [Python](https://github.com/pagarme/pagarme-core-api-python)
+- [Go](https://github.com/pagarme/pagarme-core-api-go)
+- [.NetStandard](https://github.com/pagarme/pagarme-core-api-dotnet-standard)
+- [.NetFramework](https://github.com/pagarme/pagarme-core-api-dotnet-framework)
 
-Caso você esteja atrás de exemplos de sdk em versões anteriores. Não se preocupe, pois também temos um guia te levando a sdk desejada e sua versão atual.
+Caso você esteja atrás de exemplos de SDK em versões anteriores, não se preocupe. Pois, também temos um guia para te levar a SDK desejada e sua versão atual.
 
-Repositórios que apontam para [Pagar.me](https://docs.pagar.me/v4/reference#principios-basicos) legado.
+Repositórios que apontam para [Pagar.me v1 a v4](https://docs.pagar.me/v4/reference) .
 
 - [ Java ](https://github.com/pagarme/pagarme-pocs/tree/master/Java%20-%20POCs)
 - [ Js ](https://github.com/pagarme/pagarme-pocs/tree/master/Javascript%20-%20POCs)
@@ -36,7 +39,7 @@ Repositórios que apontam para [Pagar.me](https://docs.pagar.me/v4/reference
 - [ .net ](https://github.com/pagarme/pagarme-pocs/tree/master/dotNet%20-%20POCs)
 - [ Python ](https://github.com/pagarme/pagarme-pocs/tree/master/Python%20-%20POCs)
 
-Repositório que apontam para [MundiPagg](https://docs.mundipagg.com/reference#seguran%C3%A7a).
+Repositório que apontam para [MundiPagg](https://docs.mundipagg.com/reference#introdu%C3%A7%C3%A3o).
 
 - [Java](https://github.com/mundipagg/MundiAPI-JAVA)
 - [Go](https://github.com/mundipagg/MundiApi-Go)
