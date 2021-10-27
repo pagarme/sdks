@@ -53,7 +53,7 @@ $checkout->debitCard->authentication = new \PagarmeCoreApiLib\Models\CreatePayme
 $checkout->debitCard->authentication->type = 'threed_secure';
 $checkout->debitCard->authentication->threedSecure = new \PagarmeCoreApiLib\Models\CreateThreeDSecureRequest();
 $checkout->debitCard->authentication->threedSecure->mpi = "acquirer";
-$checkout->debitCard->authentication->threedSecure->successUrl = "https://www.mundipagg.com";
+$checkout->debitCard->authentication->threedSecure->successUrl = "https://www.pagar.me";
 
 $request = new \PagarmeCoreApiLib\Models\CreateOrderRequest();
 
