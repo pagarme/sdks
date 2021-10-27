@@ -12,8 +12,9 @@ public class CreateRecipient {
 
     public static void main(String[] args) {
 
-        String basicAuthUserName = "ak_test_4tdVXpseumRmqbo"; // The username to use with basic authentication
-        String basicAuthPassword = ""; // The password to use with basic authentication
+        // Configuration parameters and credentials
+        String basicAuthUserName = "basicAuthUserName"; // The username to use with basic authentication
+        String basicAuthPassword = "basicAuthPassword"; // The password to use with basic authentication
 
         PagarmeCoreApiClient client = new PagarmeCoreApiClient(basicAuthUserName, basicAuthPassword);
 
@@ -43,7 +44,7 @@ public class CreateRecipient {
             public void onSuccess(HttpContext context, GetRecipientResponse response) {
 
                 System.out.println("Recipient create!");
-                System.out.println("Recipient Id on mundipagg: " + response.getId());
+                System.out.println("Recipient Id on pagarme: " + response.getId());
                 System.out.println("Recipient default_bank_account id: " + response.getDefaultBankAccount().getId());
 
             }

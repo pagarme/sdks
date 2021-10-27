@@ -12,8 +12,9 @@ public class CreateOrderCheckout {
 
     public static void main(String[] args) {
 
-        String basicAuthUserName = "ak_test_q73YODBFQhyV9mod"; // The username to use with basic authentication
-        String basicAuthPassword = ""; // The password to use with basic authentication
+        // Configuration parameters and credentials
+        String basicAuthUserName = "basicAuthUserName"; // The username to use with basic authentication
+        String basicAuthPassword = "basicAuthPassword"; // The password to use with basic authentication
 
         PagarmeCoreApiClient client = new PagarmeCoreApiClient(basicAuthUserName, basicAuthPassword);
 
@@ -44,7 +45,7 @@ public class CreateOrderCheckout {
         multiPayments.add(paymentTwo);
         create_checkout_payment_request.setAcceptedMultiPaymentMethods(Collections.singletonList(multiPayments));
 
-        create_checkout_payment_request.setSuccessUrl("https://www.mundipagg.com'");
+        create_checkout_payment_request.setSuccessUrl("https://www.pagar.me'");
 
         create_checkout_payment_request.setBankTransfer(new CreateCheckoutBankTransferRequest());
         List<String> banksTransfer = new ArrayList<String>();
@@ -79,7 +80,7 @@ public class CreateOrderCheckout {
                 .setThreedSecure(new CreateThreeDSecureRequest());
         create_checkout_payment_request.getDebitCard().getAuthentication().getThreedSecure().setMpi("acquirer");
         create_checkout_payment_request.getDebitCard().getAuthentication().getThreedSecure()
-                .setSuccessUrl("https://www.mundipagg.com");
+                .setSuccessUrl("https://www.pagar.me");
 
         CreateOrderRequest request = new CreateOrderRequest();
         request.setCode("test-SDK-Java");

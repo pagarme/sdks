@@ -10,8 +10,9 @@ public class GetCustomerById {
 
     public static void main(String[] args) {
 
-        String basicAuthUserName = "ak_test_4tdVXpseumRmqbo"; // The username to use with basic authentication
-        String basicAuthPassword = ""; // The password to use with basic authentication
+        // Configuration parameters and credentials
+        String basicAuthUserName = "basicAuthUserName"; // The username to use with basic authentication
+        String basicAuthPassword = "basicAuthPassword"; // The password to use with basic authentication
 
         PagarmeCoreApiClient client = new PagarmeCoreApiClient(basicAuthUserName, basicAuthPassword);
 
