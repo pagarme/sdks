@@ -8,8 +8,9 @@ namespace Example.Marketplace
     {
         static void Main(string[] args)
         {
-           string basicAuthUserName = "sk_test_4tdVXpseumRmqbo"; // The username to use with basic authentication
-            string basicAuthPassword = ""; // The password to use with basic authentication
+           // Configuration parameters and credentials
+            string basicAuthUserName = "basicAuthUserName"; // The username to use with basic authentication
+            string basicAuthPassword = "basicAuthPassword"; // The password to use with basic authentication
 
             var client = new PagarmeCoreApiClient(basicAuthUserName, basicAuthPassword);
 
@@ -29,19 +30,19 @@ namespace Example.Marketplace
                         {
                             new CreateSplitRequest {
                                 Amount = 20,
-                                RecipientId = "sk_test_4AdjlqpseatnmgbW",
+                                RecipientId = "sk_test",
                                 Type = "percentage"
                             },
                             new CreateSplitRequest
                             {
                                 Amount = 35,
-                                RecipientId = "sk_test_5AdjlqpseatnmgbW",
+                                RecipientId = "sk_test",
                                 Type = "percentage"
                             },
                             new CreateSplitRequest 
                             {
                                 Amount = 45,
-                                RecipientId = "sk_test_6AdjlqpseatnmgbW",
+                                RecipientId = "sk_test",
                                 Type = "percentage"
                             }
                         },

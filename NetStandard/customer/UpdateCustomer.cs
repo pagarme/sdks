@@ -7,12 +7,14 @@ namespace Example.Customer
     {
         static void Main(string[] args)
         {
-            string basicAuthUserName = "sk_test_4tdVXpseumRmqbo"; // The username to use with basic authentication
-            string basicAuthPassword = ""; // The password to use with basic authentication
+            // Configuration parameters and credentials
+            string basicAuthUserName = "basicAuthUserName"; // The username to use with basic authentication
+            string basicAuthPassword = "basicAuthPassword"; // The password to use with basic authentication
 
             var client = new PagarmeCoreApiClient(basicAuthUserName, basicAuthPassword);
 
             string customerId = "cus_6l5dMWZ0hkHZ4XnE";
+            
             var request = new UpdateCustomerRequest
             {
                 Name = "Peter Parker",

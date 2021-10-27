@@ -8,10 +8,9 @@ namespace Examples.card
         static void Main(string[] args)
         {
 
-            // The username to use with basic authentication
-            string basicAuthUserName = "sk_test_4tdVXpseumRmqbo";
-            // The password to use with basic authentication
-            string basicAuthPassword = "";
+           // Configuration parameters and credentials
+            string basicAuthUserName = "basicAuthUserName"; // The username to use with basic authentication
+            string basicAuthPassword = "basicAuthPassword"; // The password to use with basic authentication
 
             var client = new PagarmeCoreApiClient(basicAuthUserName, basicAuthPassword);
 
