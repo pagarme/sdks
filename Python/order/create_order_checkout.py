@@ -20,7 +20,7 @@ checkout.customer_editable = False
 checkout.skip_checkout_success_page = True
 checkout.accepted_payment_methods = ["credit_card", "boleto", "bank_transfer", "debit_card"]
 checkout.accepted_multi_payment_methods = [["credit_card", "credit_card"], ["credit_card", "boleto"]]
-checkout.success_url = "https://www.mundipagg.com"
+checkout.success_url = "https://www.pagar.me"
 
 #Bank transfer payment Setup
 checkout.bank_transfer = create_checkout_bank_transfer_request.CreateCheckoutBankTransferRequest()
@@ -53,7 +53,7 @@ checkout.debit_card.authentication = create_payment_authentication_request.Creat
 checkout.debit_card.authentication.mtype = 'none'
 checkout.debit_card.authentication.threed_secure = create_three_d_secure_request.CreateThreeDSecureRequest()
 checkout.debit_card.authentication.threed_secure.mpi = "acquirer"
-checkout.debit_card.authentication.threed_secure.success_url = "https://www.mundipagg.com"
+checkout.debit_card.authentication.threed_secure.success_url = "https://www.pagar.me"
 
 request = create_order_request.CreateOrderRequest()
 request.code = "test-SDK-python"
