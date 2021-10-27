@@ -30,19 +30,19 @@ namespace Example.Marketplace
                         {
                             new CreateSplitRequest {
                                 Amount = 20,
-                                RecipientId = "sk_test_4AdjlqpseatnmgbW",
+                                RecipientId = "sk_test",
                                 Type = "percentage"
                             },
                             new CreateSplitRequest
                             {
                                 Amount = 35,
-                                RecipientId = "sk_test_5AdjlqpseatnmgbW",
+                                RecipientId = "sk_test",
                                 Type = "percentage"
                             },
                             new CreateSplitRequest 
                             {
                                 Amount = 45,
-                                RecipientId = "sk_test_6AdjlqpseatnmgbW",
+                                RecipientId = "sk_test",
                                 Type = "percentage"
                             }
                         },
