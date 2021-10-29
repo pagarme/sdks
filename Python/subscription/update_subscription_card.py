@@ -11,7 +11,7 @@ PagarmecoreapiClient(basic_auth_user_name, basic_auth_password)
 
 subscriptions_controller = subscriptions_controller.SubscriptionsController()
 
-subscriptionId = "sub_2EvZ8GdFYZhXkbe4"
+subscription_Id = "sub_2EvZ8GdFYZhXkbe4"
 
 request = update_subscription_card_request.UpdateSubscriptionCardRequest()
 request.card = create_card_request.CreateCardRequest()
@@ -29,7 +29,7 @@ request.card.billing_address.state = "RJ"
 request.card.billing_address.country = "BR"
 
 try:
-    result = subscriptions_controller.update_subscription_card(subscriptionId, request)
+    result = subscriptions_controller.update_subscription_card(subscription_Id, request)
     assert result is not None
     assert result.card.first_six_digits == str(request.card.number[:6])
     print("Card updated!")
@@ -41,3 +41,4 @@ except ErrorException as ex:
     print("Errors: ", ex.errors)
 except Exception as ex:
     raise ex
+    

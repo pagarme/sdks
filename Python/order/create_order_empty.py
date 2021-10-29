@@ -31,7 +31,7 @@ request.customer = customer
 try:
     result = orders_controller.create_order(request)
     assert result.status == "pending"
-    assert result.closed == False
+    assert result.closed is False
     print("Order id is: ", result.id)
     print("Order closed is", result.closed)
     print("Order result status: ", result.status)
@@ -40,3 +40,4 @@ except ErrorException as ex:
     print("Errors: ", ex.errors)
 except Exception as ex:
     raise ex
+    

@@ -11,7 +11,7 @@ PagarmecoreapiClient(basic_auth_user_name, basic_auth_password)
 
 customers_controller = customers_controller.CustomersController()
 
-customerId = "cus_PzRyp10FeNca2rVB"
+customer_Id = "cus_PzRyp10FeNca2rVB"
 
 request = create_address_request.CreateAddressRequest()
 
@@ -26,7 +26,7 @@ request.metadata = update_metadata_request.UpdateMetadataRequest()
 request.metadata.id = "my_address_id"
 
 try:
-    result = customers_controller.create_address(customerId, request)
+    result = customers_controller.create_address(customer_Id, request)
     assert result is not None
     assert result.id is not None
     print("Address id: ", result.id)
@@ -36,3 +36,4 @@ except ErrorException as ex:
     print("Errors: ", ex.errors)
 except Exception as ex:
     raise ex
+    

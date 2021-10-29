@@ -40,11 +40,11 @@ request.options = create_card_options_request.CreateCardOptionsRequest()
 request.options.verify_card = True
 
 try:
-    createdCustomer = customers_controller.create_customer(customer)
-    result = customers_controller.create_card(createdCustomer.id, request)
-    assert createdCustomer is not None
+    created_Customer = customers_controller.create_customer(customer)
+    result = customers_controller.create_card(created_Customer.id, request)
+    assert created_Customer is not None
     assert result is not None
-    print("Customer id: ", createdCustomer.id)
+    print("Customer id: ", created_Customer.id)
     print("Card id: ", result.id)
 
 except ErrorException as ex:
@@ -52,4 +52,4 @@ except ErrorException as ex:
     print("Errors: ", ex.errors)
 except Exception as ex:
     raise ex
-
+    

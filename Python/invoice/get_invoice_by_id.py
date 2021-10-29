@@ -11,10 +11,10 @@ PagarmecoreapiClient(basic_auth_user_name, basic_auth_password)
 
 invoices_controller = invoices_controller.InvoicesController()
 
-invoiceId = "in_DKRdGqpsaVS4rmpl"
+invoice_Id = "in_DKRdGqpsaVS4rmpl"
 
 try:
-    result = invoices_controller.get_invoice(invoiceId)
+    result = invoices_controller.get_invoice(invoice_Id)
     assert result is not None
     assert result.id is not None
     print("Invoice id: ", result.id)
@@ -24,3 +24,4 @@ except ErrorException as ex:
     print("Errors: ", ex.errors)
 except Exception as ex:
     raise ex
+    

@@ -10,10 +10,10 @@ PagarmecoreapiClient(basic_auth_user_name, basic_auth_password)
 
 customers_controller = customers_controller.CustomersController()
 
-customerId = "cus_G6gwy4xtJIOyNbrK"
+customer_Id = "cus_G6gwy4xtJIOyNbrK"
 
 try:
-    result = customers_controller.get_cards(customerId, 1, 30)
+    result = customers_controller.get_cards(customer_Id, 1, 30)
     assert result is not None
     assert result.data is not None
 
@@ -29,3 +29,4 @@ except ErrorException as ex:
     print("Errors: ", ex.errors)
 except Exception as ex:
     raise ex
+    

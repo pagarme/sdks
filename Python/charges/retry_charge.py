@@ -10,12 +10,13 @@ PagarmecoreapiClient(basic_auth_user_name, basic_auth_password)
 
 charges_controller = charges_controller.ChargesController()
 
-chargeId = "ch_8YQ1JeTLzF8zlqWy"
+charge_Id = "ch_8YQ1JeTLzF8zlqWy"
 
 try:
-    result = charges_controller.retry_charge(chargeId)
+    result = charges_controller.retry_charge(charge_Id)
 except ErrorException as ex:
     print(ex.message)
     print("Errors: ", ex.errors)
 except Exception as ex:
     raise ex
+    

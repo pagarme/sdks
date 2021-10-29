@@ -44,7 +44,7 @@ try:
     result = orders_controller.create_order(request)
     assert result.status == "pending"
     assert result.charges[0].status == "pending"
-    assert result.charges[0].last_transaction.success == True
+    assert result.charges[0].last_transaction.success is True
     assert result.charges[0].last_transaction.status == "generated"
     assert result.charges[0].last_transaction.url is not None
     assert result.charges[0].last_transaction.bank is not None
@@ -58,3 +58,4 @@ except ErrorException as ex:
     print("Errors: ", ex.errors)
 except Exception as ex:
     raise ex
+    

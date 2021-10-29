@@ -22,17 +22,17 @@ checkout.accepted_payment_methods = ["credit_card", "boleto", "bank_transfer", "
 checkout.accepted_multi_payment_methods = [["credit_card", "credit_card"], ["credit_card", "boleto"]]
 checkout.success_url = "https://www.pagar.me"
 
-#Bank transfer payment Setup
+# Bank transfer payment Setup
 checkout.bank_transfer = create_checkout_bank_transfer_request.CreateCheckoutBankTransferRequest()
 checkout.bank_transfer.bank = ["237", "001", "341"]
 
-#Boleto Payment Setup
+# Boleto Payment Setup
 checkout.boleto = create_checkout_boleto_payment_request.CreateCheckoutBoletoPaymentRequest()
 checkout.boleto.bank = "033"
 checkout.boleto.instructions ="Pagar ate o vencimento"
 checkout.boleto.due_at = "2021-07-25T00:00:00Z"
 
-#Credit Card Payment Setup
+# Credit Card Payment Setup
 checkout.credit_card = create_checkout_credit_card_payment_request.CreateCheckoutCreditCardPaymentRequest()
 checkout.credit_card.capture = True
 checkout.credit_card.statement_descriptor = "Descriptor example"
@@ -90,3 +90,4 @@ except ErrorException as ex:
         print("Errors: ", ex.errors)
 except Exception as ex:
     raise ex
+    

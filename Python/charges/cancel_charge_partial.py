@@ -11,13 +11,13 @@ PagarmecoreapiClient(basic_auth_user_name, basic_auth_password)
 
 charges_controller = charges_controller.ChargesController()
 
-chargeId = "ch_xvrd7kOuRZfnQdz0"
+charge_Id = "ch_xvrd7kOuRZfnQdz0"
 request = create_cancel_charge_request.CreateCancelChargeRequest()
 request.code = "calcel_partial_operation"
 request.amount = 100
 
 try:
-    result = charges_controller.cancel_charge(chargeId, request)
+    result = charges_controller.cancel_charge(charge_Id, request)
     assert result is not None
     assert result.canceled_amount is not None
     assert result.canceled_amount == request.amount
@@ -32,3 +32,4 @@ except ErrorException as ex:
     print("Errors: ", ex.errors)
 except Exception as ex:
     raise ex
+    

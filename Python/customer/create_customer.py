@@ -38,8 +38,6 @@ request.phones.mobile_phone.area_code = "21"
 request.phones.mobile_phone.country_code = "55"
 request.phones.mobile_phone.number = "000000000"
 
-
-
 try:
     result = customers_controller.create_customer(request)
     assert result is not None
@@ -50,3 +48,4 @@ except ErrorException as ex:
     print("Errors: ", ex.errors)
 except Exception as ex:
     raise ex
+    

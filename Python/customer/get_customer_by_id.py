@@ -10,12 +10,12 @@ PagarmecoreapiClient(basic_auth_user_name, basic_auth_password)
 
 customers_controller = customers_controller.CustomersController()
 
-customerId = "cus_6l5dMWZ0hkHZ4XnE"
+customer_Id = "cus_6l5dMWZ0hkHZ4XnE"
 
 try:
-    result = customers_controller.get_customer(customerId)
+    result = customers_controller.get_customer(customer_Id)
     assert result is not None
-    assert customerId == result .id
+    assert customer_Id == result .id
     print("Customer id: ", result .id)
 except ErrorException as ex:
     if ex.response_code == "404":
@@ -24,3 +24,4 @@ except ErrorException as ex:
     print("Errors: ", ex.errors)
 except Exception as ex:
     raise ex
+    

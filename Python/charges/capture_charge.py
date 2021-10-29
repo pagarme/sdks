@@ -11,12 +11,12 @@ PagarmecoreapiClient(basic_auth_user_name, basic_auth_password)
 
 charges_controller = charges_controller.ChargesController()
 
-chargeId = "ch_8YQ1JeTLzF8zlqWy"
+charge_Id = "ch_8YQ1JeTLzF8zlqWy"
 request = create_capture_charge_request.CreateCaptureChargeRequest()
 request.code = "new_code"
 
 try:
-    result = charges_controller.capture_charge(chargeId, request)
+    result = charges_controller.capture_charge(charge_Id, request)
     assert result is not None
     assert result.paid_amount == result.amount
     assert result.status == "paid"
@@ -30,3 +30,4 @@ except ErrorException as ex:
     print("Errors: ", ex.errors)
 except Exception as ex:
     raise ex
+    

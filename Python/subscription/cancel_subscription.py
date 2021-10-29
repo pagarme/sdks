@@ -11,7 +11,7 @@ PagarmecoreapiClient(basic_auth_user_name, basic_auth_password)
 
 subscriptions_controller = subscriptions_controller.SubscriptionsController()
 
-subscriptionId = "sub_2EvZ8GdFYZhXkbe4"
+subscription_Id = "sub_2EvZ8GdFYZhXkbe4"
 
 request = create_cancel_subscription_request.CreateCancelSubscriptionRequest()
 request.cancel_pending_invoices = True
@@ -27,3 +27,4 @@ except ErrorException as ex:
     print("Errors: ", ex.errors)
 except Exception as ex:
     raise ex
+    

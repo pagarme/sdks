@@ -16,10 +16,10 @@ request.name = "Peter Parker"
 request.email = "parker@avangers.com"
 request.gender = "male"
 
-customerId = "cus_6l5dMWZ0hkHZ4XnE"
+customer_Id = "cus_6l5dMWZ0hkHZ4XnE"
 
 try:
-    result = customers_controller.update_customer(customerId, request)
+    result = customers_controller.update_customer(customer_Id, request)
     assert result is not None
     assert result.name == request.name
     assert result.email == request.email
