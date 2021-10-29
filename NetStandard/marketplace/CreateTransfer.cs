@@ -18,7 +18,7 @@ namespace Example.Marketplace
             {
                 Name = "Tony Stark",
                 Document = "12312312312",
-                Email = "Star22k@mundipagg.com",
+                Email = "Star22k@pagar.me",
                 Type = "individual",
                 DefaultBankAccount = new CreateBankAccountRequest
                 {
