@@ -21,7 +21,7 @@ Nos tornamos, agora, uma plataforma financeira completa e muito mais robusta, at
 - ----------------------------------------------------------------------------------------------------------------------------
 
 Através deste repositório, você conseguirá da andamento ao desenvolvimento do seu projeto. Aqui você encontrará exemplos práticos 
-sobre a integração com nossas SDKs. Por fim, nossas SDKs não aceitaram mais PRs, pois são geradas automaticamente.
+sobre a integração com nossas SDKs referente a v5. Por fim, nossas SDKs não aceitarão mais PRs, pois são geradas automaticamente.
 
 - [Java](https://github.com/pagarme/pagarme-core-api-java)
 - [Node](https://github.com/pagarme/pagarme-core-api-nodejs)
@@ -32,7 +32,7 @@ sobre a integração com nossas SDKs. Por fim, nossas SDKs não aceitaram m
 - [.NetStandard](https://github.com/pagarme/pagarme-core-api-dotnet-standard)
 - [.NetFramework](https://github.com/pagarme/pagarme-core-api-dotnet-framework)
 
-Caso você esteja atrás de exemplos de SDK em versões anteriores, não se preocupe. Pois, também temos um guia para te levar a SDK desejada e sua versão atual.
+Caso você esteja atrás de exemplos de SDK em versões anteriores da v1 a v4, não se preocupe. Pois, também temos um guia para te levar a SDK desejada e sua versão atual.
 
 Repositórios que apontam para [Pagar.me](https://docs.pagar.me/v4/reference) legado e alguns [exemplos](https://github.com/pagarme/pagarme-pocs) dessas SDKs.
 
@@ -40,7 +40,7 @@ Repositórios que apontam para [Pagar.me](https://docs.pagar.me/v4/reference
 - [ Js ](https://github.com/pagarme/pagarme-js)
 - [ Ruby ](https://github.com/pagarme/pagarme-ruby)
 - [ Php ](https://github.com/pagarme/pagarme-php)
-- [ .net ](https://github.com/pagarme/pagarme-net)
+- [ .Net ](https://github.com/pagarme/pagarme-net)
 - [ Python ](https://github.com/pagarme/pagarme-python)
 
 
