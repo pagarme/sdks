@@ -29,8 +29,8 @@ sobre a integração com nossas SDKs referente a v5. Por fim, nossas SDKs n
 - [Php](https://github.com/pagarme/pagarme-core-api-php)
 - [Python](https://github.com/pagarme/pagarme-core-api-python)
 - [Go](https://github.com/pagarme/pagarme-core-api-go)
-- [.NetStandard](https://github.com/pagarme/pagarme-core-api-dotnet-standard)
-- [.NetFramework](https://github.com/pagarme/pagarme-core-api-dotnet-framework)
+- [.NET Standard](https://github.com/pagarme/pagarme-core-api-dotnet-standard)
+- [.NET Framework](https://github.com/pagarme/pagarme-core-api-dotnet-framework)
 
 Caso você esteja atrás de exemplos de SDK em versões anteriores da v1 a v4, não se preocupe. Pois, também temos um guia para te levar a SDK desejada e sua versão atual.
 
@@ -40,7 +40,7 @@ Repositórios que apontam para [Pagar.me](https://docs.pagar.me/v4/reference
 - [ Js ](https://github.com/pagarme/pagarme-js)
 - [ Ruby ](https://github.com/pagarme/pagarme-ruby)
 - [ Php ](https://github.com/pagarme/pagarme-php)
-- [ .Net ](https://github.com/pagarme/pagarme-net)
+- [ .NET ](https://github.com/pagarme/pagarme-net)
 - [ Python ](https://github.com/pagarme/pagarme-python)
 
 
@@ -51,6 +51,6 @@ Repositório que apontam para [MundiPagg](https://docs.mundipagg.com/referen
 - [Php](https://github.com/mundipagg/MundiAPI-PHP)
 - [Ruby](https://github.com/mundipagg/MundiAPI-RUBY)
 - [Node](https://github.com/mundipagg/MundiApi-NodeJS)
-- [NetStandard](https://github.com/mundipagg/MundiAPI-NetStandard)
+- [.NET Standard](https://github.com/mundipagg/MundiAPI-NetStandard)
 - [CSharp](https://github.com/mundipagg/MundiAPI-CSharp)
 - [Python](https://github.com/mundipagg/MundiAPI-PYTHON)
