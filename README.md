@@ -29,7 +29,7 @@ sobre a integração com nossas SDKs referente a v6, que trazem correções
 - [Php](https://github.com/pagarme/pagarme-php-sdk)
 - [.NET Standard](https://github.com/pagarme/pagarme-net-standard-sdk)
 
-No entanto, ainda não estamos disponibilisando todas as sdks, pois estão em processo de desenvolvimento. Por fim, nossas SDKs não
+No entanto, ainda não estamos disponibilizando todas as sdks, pois estão em processo de desenvolvimento. Por fim, nossas SDKs não
 aceitarão mais PRs, porque são geradas automaticamente.
 
 Sdks referente a v5. Aqui pensamos em cada passo para que você tenha uma experiência única e consiga transacionar com poucas linhas de código.
