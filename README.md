@@ -29,9 +29,9 @@ sobre a integração com nossas SDKs referente a v6, que trazem correções
 - [Php](https://github.com/pagarme/pagarme-php-sdk)
 - [.NET Standard](https://github.com/pagarme/pagarme-net-standard-sdk)
 
-No entanto, ainda não estamos disponibilizando todas as SDKs, pois estão em processo de desenvolvimento. E, Por fim, nossas SDKs não aceitarão mais PRs, já que as mesmas são geradas automaticamente.
+No entanto, ainda não estamos disponibilizando todas as SDKs, pois estão em processo de desenvolvimento. E, por fim, nossas SDKs não aceitarão mais PRs, já que as mesmas são geradas automaticamente.
 
-SDKs referente a v5. Aqui pensamos em cada passo para que você tenha uma experiência única e consiga transacionar com poucas linhas de código.
+Para facilitar a integração com a v5 disponibilizamos os repositórios abaixo:
 
 - [Java](https://github.com/pagarme/pagarme-core-api-java)
 - [Node](https://github.com/pagarme/pagarme-core-api-nodejs)
